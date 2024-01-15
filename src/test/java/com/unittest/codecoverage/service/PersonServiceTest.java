@@ -2,10 +2,12 @@ package com.unittest.codecoverage.service;
 
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
+import java.lang.reflect.Field;
 import java.util.List;
 
+import com.unittest.codecoverage.models.validators.PersonValidator;
 import org.assertj.core.util.Lists;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -96,5 +98,25 @@ public class PersonServiceTest {
 			.hasFieldOrPropertyWithValue("errors", expectedErrors)
 			.hasMessage(expectedMessage);
 	}
+
+
+	@Test
+	public void testDelete_shouldCallRepositoryDeleteWhenNameIsValid() throws NoSuchFieldException, IllegalAccessException {
+		String validName = "Dariush Amiri";
+		PersonValidator validator = mock(PersonValidator.class);
+		when(validator.requiredName(validName)).thenReturn(false);
+
+		Field validatorField = PersonServiceImpl.class.getDeclaredField("validator");
+		validatorField.setAccessible(true);
+		validatorField.set(service, validator);
+
+		service.delete(validName);
+
+		verify(validator).requiredName(validName);
+		verify(repository).delete(validName);
+	}
+
+
+	
 
 }
