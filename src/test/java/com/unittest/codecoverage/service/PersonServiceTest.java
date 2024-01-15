@@ -117,6 +117,14 @@ public class PersonServiceTest {
 	}
 
 
-	
+	@Test
+	public void testUpdate_shouldUpdatePersonWithSuccessWhenAllPersonsInfoIsFilled() {
+		Person person = new Person();
+		person.setName("Dariush");
+		person.setAge(23);
+		person.setGender(Gender.M);
+		service.update(person);
+		verify(repository).update(person);
+	}
 
 }
