@@ -12,7 +12,11 @@
 
 
 # بخش دوم، CodeCoverage
- ## تعدادی تست اضافه می‌گنیم که در ادامه هر کدام را شرح داده ایم:
+
+  ## ابتدا درصد test coverage اولیه آن را نمایش می‌دهیم. در ادامه نیز تعدادی تست اضافه می‌کنیم که در هر قسمت آن را شرح داده ایم.
+
+  <img width="1512" alt="کاورج codecoverage" src="https://github.com/dariusamiri/SE_LAB_7/assets/59167222/76738a1a-d002-41e8-a423-30e05476490a">
+
  
 ### در کلاس PersonServiceTest
 
@@ -63,7 +67,9 @@
 <img width="1512" alt="Screenshot 1402-10-26 at 10 51 49" src="https://github.com/dariusamiri/SE_LAB_7/assets/59167222/5a40c260-63c8-4a36-9e40-237bcfdbf72a">
 
 
+### نتیجه نهایی و افزایش code cverage را در عکس زیر مشاهده می‌کنیم.
 
+<img width="1512" alt="Screenshot 1402-10-26 at 11 08 52" src="https://github.com/dariusamiri/SE_LAB_7/assets/59167222/a4b92635-79ec-4c92-9530-e80829f50997">
 
 
 
