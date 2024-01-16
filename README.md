@@ -26,7 +26,22 @@
 <img width="1512" alt="Screenshot 1402-10-25 at 14 27 18" src="https://github.com/dariusamiri/SE_LAB_7/assets/59167222/d1963ce9-68b5-4295-b882-6f72af2b5861">
 
 
-### در کلاس PersonServiceTest
+### در کلاس FootpassengerTest
+
+#### تست زیر را اضافه میکنیم، همانطور که مشاهده میکنیم test coverage برای Footpassenger افزایش یافته است.
+
+<img width="1512" alt="Screenshot 1402-10-26 at 10 04 52" src="https://github.com/dariusamiri/SE_LAB_7/assets/59167222/0588b972-f3b5-4677-8fec-b702a886ac6b">
+
+
+### در کلاس PersonTest
+
+#### تست های getter و setter زیر را اضافه میکنیم، همانطور که مشاهده میکنیم test coverage برای Person افزایش یافته است.
+
+
+<img width="1512" alt="Screenshot 1402-10-26 at 10 17 15" src="https://github.com/dariusamiri/SE_LAB_7/assets/59167222/c616adef-d7b5-47bc-a085-9548e7fca74a">
+
+<img width="1512" alt="Screenshot 1402-10-26 at 10 17 24" src="https://github.com/dariusamiri/SE_LAB_7/assets/59167222/4e4ba46d-1fba-4c34-9d21-9e4456b96f84">
+
 
 
 
