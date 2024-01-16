@@ -73,6 +73,13 @@
 
 
 
+### ریپورت را نیز generte می‌کنیم و هر قسمت را می‌توانیم تغییراتش را مشاهده کنیم؛ در اینجا person را بررسی کرده‌ایم.
+
+
+<img width="1512" alt="Screenshot 1402-10-26 at 11 13 11" src="https://github.com/dariusamiri/SE_LAB_7/assets/59167222/ccda09db-0b46-4f8d-a719-a98933e80b5d">
+
+
+
 
 
 
