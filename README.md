@@ -42,6 +42,32 @@
 
 <img width="1512" alt="Screenshot 1402-10-26 at 10 17 24" src="https://github.com/dariusamiri/SE_LAB_7/assets/59167222/4e4ba46d-1fba-4c34-9d21-9e4456b96f84">
 
+### در کلاس TrafficTest
+
+#### تست زیر را اضافه میکنیم، همانطور که مشاهده میکنیم test coverage برای Traffic افزایش یافته است.
+
+
+<img width="1512" alt="Screenshot 1402-10-26 at 10 31 31" src="https://github.com/dariusamiri/SE_LAB_7/assets/59167222/a4c684d2-bf5b-4ac5-8549-61f421106291">
+
+### در کلاس PersonRepositoryTests
+
+#### تست زیر را اضافه میکنیم، همانطور که مشاهده میکنیم test coverage برای PersonRepository افزایش یافته است.
+
+<img width="1512" alt="Screenshot 1402-10-26 at 10 38 59" src="https://github.com/dariusamiri/SE_LAB_7/assets/59167222/012ba12e-e922-4525-aa39-fe5a075c9abd">
+
+
+### در کلاس PersonValidatorTest
+
+#### تست زیر را اضافه میکنیم، همانطور که مشاهده میکنیم test coverage برای PersonValidator افزایش یافته است.
+
+<img width="1512" alt="Screenshot 1402-10-26 at 10 51 49" src="https://github.com/dariusamiri/SE_LAB_7/assets/59167222/5a40c260-63c8-4a36-9e40-237bcfdbf72a">
+
+
+
+
+
+
+
 
 
 
